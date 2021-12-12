@@ -6,6 +6,9 @@ This code use dataset from The document contains 6980 queries or questions with 
 ## Methods
 We try to combine the retrieval power of BM25 indexed with DeepCT term weighting based on paper Dai and Callan, 2019 with the contextual understanding gained through IR-BERT based on paper Deshmukh and Sethi, 2020 on MS-MARCO dataset
 
+## Evaluation
+We use MRR@10 evaluation code provided by MSMARCO. The official evaluation code could be found in https://github.com/dfcf93/MSMARCOV2/blob/master/Ranking/Baselines/msmarco_eval.py
+
 ## References
 Yinqiong Cai, Yixing Fan, Jiafeng Guo, Fei Sun, Ruqing Zhang, and Xueqi Cheng. 2021. Semantic Models for the First-stage Retrieval: A Comprehensive Review. CoRR, abs/2103.04831. https://arxiv.org/abs/2103.04831
 
