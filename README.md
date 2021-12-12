@@ -4,7 +4,7 @@
 This code use dataset from The document contains 6980 queries or questions with each query having 1000 candidate passage lists. The dataset provided by Dai and Callan, 2019 could be downloaded from https://github.com/AdeDZY/DeepCT
 
 ## Methods
-We try to combine the retrievalpower of BM25 indexed with DeepCT term weight-ing based on paper Dai and Callan, 2019 with the contextual understanding gained through IR-BERT based on paper Deshmukh and Sethi, 2020 on MS-MARCO dataset
+We try to combine the retrieval power of BM25 indexed with DeepCT term weighting based on paper Dai and Callan, 2019 with the contextual understanding gained through IR-BERT based on paper Deshmukh and Sethi, 2020 on MS-MARCO dataset
 
 ## References
 Yinqiong Cai, Yixing Fan, Jiafeng Guo, Fei Sun, Ruqing Zhang, and Xueqi Cheng. 2021. Semantic Models for the First-stage Retrieval: A Comprehensive Review. CoRR, abs/2103.04831. https://arxiv.org/abs/2103.04831
